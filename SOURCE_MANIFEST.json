@@ -1,0 +1,499 @@
+{
+  "family": "dotnet",
+  "version": "1.0.0",
+  "source_commit": "cf893e2d16b86550dc2df1cb997112635fd8b0e1",
+  "source_worktree_dirty": false,
+  "note": "SDK-only export. No private monorepo Git history is included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 37,
+      "sha256": "442527c588bf78496d8716930178fd4a6413513ad4b1c46bcf765eb97356f2d9"
+    },
+    {
+      "path": "Aquari.One.Sdk.sln",
+      "bytes": 8209,
+      "sha256": "d8b132908c28aee185067fe8b3356ade4e1d9845d2e97ffabaf8d03b4ea8e64d"
+    },
+    {
+      "path": "Directory.Build.props",
+      "bytes": 1129,
+      "sha256": "56590b4224c3ead09d1eb3ed1b7ee0ad7d0b7736d824b051d2e03c9bb31e0139"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1423,
+      "sha256": "1f6d7f276b567f44b07e091f19b6617569c925b71293ba4b4f2c271f09ab3833"
+    },
+    {
+      "path": "global.json",
+      "bytes": 111,
+      "sha256": "20c93ca7812d0a9825eef71217156f95ab2f4fe5aadfeb22ebc1c24b630018d3"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Aquari.One.AspNetCore.csproj",
+      "bytes": 827,
+      "sha256": "c715fad7533fbeea0e1605f29ee92dcfbf5419650eafdbce3a07565528938a6f"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/AquariAspNetCoreAuth.cs",
+      "bytes": 12438,
+      "sha256": "9e2b1bb15966815a4d764e4b4981790f7db5c8884796a7c750005ae94c44ae53"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/AquariAspNetCoreOptions.cs",
+      "bytes": 6436,
+      "sha256": "2d0f11d3aa5b881b42db88b06b06658d76b8129d485e9806b27c1380c0312823"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/AquariServiceCollectionExtensions.cs",
+      "bytes": 2758,
+      "sha256": "fdd48b013e3d6c35a9f4f9bc8aed7ccd6b53061f7fc95614c0ca7b34d2acde94"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/AquariSession.cs",
+      "bytes": 1317,
+      "sha256": "41bbc6cc8c6c5fb5f3dfe8cbdbedf24d2769896c048029b026adb55f0b3a8a95"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Concurrency/IAquariRefreshLock.cs",
+      "bytes": 393,
+      "sha256": "5501cb4d8adb96ad3c95b0ac3f1c23f1b0aa8139951a63a131997f297a8416a0"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Concurrency/InMemoryAquariRefreshLock.cs",
+      "bytes": 3002,
+      "sha256": "6fb0696064afffffb915c2b377cac886c855bef2903d7815901dbe9eb9f4bdf8"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Internal/AquariAspNetCoreState.cs",
+      "bytes": 5488,
+      "sha256": "4d10dec21af385b95ba866f1f01f79ffb352d84c8f771bd1716574d682e63bf5"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Internal/AquariStoredState.cs",
+      "bytes": 613,
+      "sha256": "968a900fa44b2cbc38006447f39fee6480ce0ff25ce73a3863eba8a147f8c58a"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/README.md",
+      "bytes": 636,
+      "sha256": "72109d62b21e5260fae6c8575234d88148e1e44eb2515806894243441dd5b8be"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Session/IAquariSessionStore.cs",
+      "bytes": 746,
+      "sha256": "0c35a3a4c32ebafc6803129ab81e90f501c275aca0e6b7d3e5072a3fcc0ad112"
+    },
+    {
+      "path": "src/Aquari.One.AspNetCore/Session/InMemoryAquariSessionStore.cs",
+      "bytes": 2324,
+      "sha256": "ee3fd1004e5f658edf641bccfcc5c2f7c61e630184a1755729dcf2e7f373e934"
+    },
+    {
+      "path": "src/Aquari.One.Server/Aquari.One.Server.csproj",
+      "bytes": 752,
+      "sha256": "cf841e950c37dcb570d208d5de1337d177207fd7d88785c96ba060a16fec946d"
+    },
+    {
+      "path": "src/Aquari.One.Server/AquariMachineScopes.cs",
+      "bytes": 2642,
+      "sha256": "f2b0e50fa8c5077a20cf6bb952d1b79e44e77a91d9c7aa2b5c7058d19ac93f60"
+    },
+    {
+      "path": "src/Aquari.One.Server/AquariServerClient.cs",
+      "bytes": 2231,
+      "sha256": "ce8144e0edc6f5b6b4f6d79511cfce85cf29c051c14a7b21d2e3bf9e3b9efd86"
+    },
+    {
+      "path": "src/Aquari.One.Server/Configuration/AquariServerClientOptions.cs",
+      "bytes": 2171,
+      "sha256": "40f4ffe8b24d0afbd553094d18e0bd1ecb5726b191224fe7b98858f5cccaa36a"
+    },
+    {
+      "path": "src/Aquari.One.Server/Internal/AquariServerWire.cs",
+      "bytes": 2010,
+      "sha256": "79a7ef1b3a17f7c735020b40454a2cc3f8c0db7e771d1edd6c4b95e31c546761"
+    },
+    {
+      "path": "src/Aquari.One.Server/Issuer/AquariIssuerClient.cs",
+      "bytes": 19839,
+      "sha256": "ebaa636ba6abd1d60bbd27806e2968504b08ceef935a1a679c233299c916b947"
+    },
+    {
+      "path": "src/Aquari.One.Server/Issuer/AquariIssuerModels.cs",
+      "bytes": 17085,
+      "sha256": "9d9ae555c6be53ec6d5695862a722ab8e754017c331bee86aea71530941b41fe"
+    },
+    {
+      "path": "src/Aquari.One.Server/Machine/AquariMachineClient.cs",
+      "bytes": 1579,
+      "sha256": "82b56ca69c28337633fd95879cd9554d117793ab4dc6b51b217cba561e4510c5"
+    },
+    {
+      "path": "src/Aquari.One.Server/Machine/AquariMachineModels.cs",
+      "bytes": 1924,
+      "sha256": "f8fb00d3cb7d6cf8ab4e26dbd84d6a85f7c37188d33eed2b3ef03703455f3d28"
+    },
+    {
+      "path": "src/Aquari.One.Server/README.md",
+      "bytes": 656,
+      "sha256": "8ba0f400900169fd0d331d1696ae63679db629d0521ac16575872cdea9cb4cb6"
+    },
+    {
+      "path": "src/Aquari.One.Server/Webhooks/AquariWebhookKnownData.cs",
+      "bytes": 7548,
+      "sha256": "8c9ff4f3b5fbd7c4600534a8738e306166fa2a9bebce1394df8663572567c5c3"
+    },
+    {
+      "path": "src/Aquari.One.Server/Webhooks/AquariWebhookModels.cs",
+      "bytes": 3623,
+      "sha256": "4fa083040fd39e127f16ef98166100d6d32763a36ee482d5028f50dd15038310"
+    },
+    {
+      "path": "src/Aquari.One.Server/Webhooks/AquariWebhookVerifier.cs",
+      "bytes": 10853,
+      "sha256": "8fb3f52180ec863168aaa6a58ab61927c15443779cf991207044233c01b98d56"
+    },
+    {
+      "path": "src/Aquari.One/Aquari.One.csproj",
+      "bytes": 740,
+      "sha256": "5856c02d4f01a1543823e60cf2771bf9eae2e40ebbb991dfd363d6079c344616"
+    },
+    {
+      "path": "src/Aquari.One/AquariClient.cs",
+      "bytes": 2463,
+      "sha256": "d827dbf3496eb72c45a3a4ae194ca3249b9eff45a0d284ce7c0cad38a68c4200"
+    },
+    {
+      "path": "src/Aquari.One/AquariScopes.cs",
+      "bytes": 693,
+      "sha256": "a2857c1f80490a9a424c2d52ded66a33a3a6e6b9486a00e5b1f9fce6f42ffcfd"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariAuthClient.cs",
+      "bytes": 6790,
+      "sha256": "72560968a01734335dc0a586d468bd59b983909a91d62117c1896a3ba2f612f6"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariAuthorizationCallback.cs",
+      "bytes": 226,
+      "sha256": "98fecc209b437c0c37c83ad19386c3c29a5065855da8557bfc4a198feac53901"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariAuthorizationPrompt.cs",
+      "bytes": 444,
+      "sha256": "628df2195c77845495eae10fd282ede1f8bde63b5e92fa28739a6dc0488378b7"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariAuthorizationTransaction.cs",
+      "bytes": 1189,
+      "sha256": "2c9bce8831ea37f3b3df54bf67d68ac1935ad7d1f13cc301a936a264d533377a"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariBeginAuthorizationResult.cs",
+      "bytes": 474,
+      "sha256": "83186a55c48626b706ade1a17a5a749d37b07a34c6e3ea3bd09389ea2d02f286"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariCompleteAuthorizationResult.cs",
+      "bytes": 394,
+      "sha256": "c840fca5803aeb40ca2ea523226a032443a7b20d34de13f895f520ddcdbb4965"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariIdentity.cs",
+      "bytes": 1045,
+      "sha256": "e73406d9b004659a068b05d5e68740d096532ca5cf51f6b14f2d57bfb43a9f24"
+    },
+    {
+      "path": "src/Aquari.One/Auth/AquariTokenSet.cs",
+      "bytes": 1068,
+      "sha256": "6c1595b50eebb4a49005fbf7a03a22544bb54a77d528fc85fae533808159fb06"
+    },
+    {
+      "path": "src/Aquari.One/Configuration/AquariClientOptions.cs",
+      "bytes": 3808,
+      "sha256": "6ab830cdbe5ccd8651f6d86e3d59244b0ebf554fa2bd3827d3edb5903d0257ba"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariApiException.cs",
+      "bytes": 1299,
+      "sha256": "a8f761d4c1548c3c9945e2440a9b6c03b67af40d7cbeeea87619e710499d1699"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariAuthenticationException.cs",
+      "bytes": 557,
+      "sha256": "b4c934ff62f1b0825dffe29ff395912a4f0e5a490632da1cdc6194a0064ba5ca"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariAuthorizationException.cs",
+      "bytes": 553,
+      "sha256": "96af57b3de460e01b79aa0b12314a8ed1220e19ecfb675089f323af4bc05bc8a"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariConfigurationException.cs",
+      "bytes": 878,
+      "sha256": "fd37f503b0d9c954f568d326e7d451b38c6192ded5c19f5330857ef385895b82"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariConflictException.cs",
+      "bytes": 534,
+      "sha256": "c759ea69e0360758fbf2b232ad513aee6649016eaf739ec9f2f40ea73e5faeb5"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariException.cs",
+      "bytes": 795,
+      "sha256": "68ba40b26c4b502282d29e633b3e123ee81a8e06bf09fec7b7c36d3efcb8be93"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariNotFoundException.cs",
+      "bytes": 535,
+      "sha256": "18cfa24a33683ee7e738dca889af669dbfe300dfa7cdbf2fd610f5c1fe459c58"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariOAuthException.cs",
+      "bytes": 1235,
+      "sha256": "b8704421caa99ab42f8e045541d964508597adec77dcd1e4f4f6399696e2731d"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariQuotaException.cs",
+      "bytes": 3270,
+      "sha256": "1c241c94072ddde454bc68a5d56fbf94969b6e29294085d3a69c9502614196fa"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariRateLimitException.cs",
+      "bytes": 737,
+      "sha256": "0686e133b52a5d3ef68ffa0ced3ec5cca44ac1d067fae635125bb16a58fea694"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariTimeoutException.cs",
+      "bytes": 887,
+      "sha256": "7a6b7446341520a730ce708467545a7c65d1c8b5f8b24a273f873bba36a5de3d"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariTransportException.cs",
+      "bytes": 963,
+      "sha256": "77aed8d8daf2cf1bf21f24dda3e3893b5cd91c66d1276e9809fc50fb7b24dbbd"
+    },
+    {
+      "path": "src/Aquari.One/Errors/AquariValidationException.cs",
+      "bytes": 906,
+      "sha256": "104b005ec773eeaf0ad489c2bd75e28627ccb21a9bd11430d7b895b8d32ab6a4"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariAuthorizationFlow.cs",
+      "bytes": 11599,
+      "sha256": "7fffc86b0de1e0696a2a012b01bd60dba1a93d4bfa1ddf0d6cb007e95b0cbf03"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariErrorFactory.cs",
+      "bytes": 2601,
+      "sha256": "12b7a8b7484ebb72f41a591fd6754b2ba1bba04103c22f4d9b9c7bfff9d0cd63"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariOAuthProtocol.cs",
+      "bytes": 19801,
+      "sha256": "43a21573d23c2570febb0995f2aa3942b394507244960786752a9fd6c96a3f22"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariPkce.cs",
+      "bytes": 1460,
+      "sha256": "13ebcdf7a6746078540cf64893d18e18160589572fc02a50b20dbfd4760bf87e"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariUriPolicy.cs",
+      "bytes": 3353,
+      "sha256": "0be46c16e6ee745820b1c85a9e4a6d2e54e5373acd262d37675dc49e3dbae843"
+    },
+    {
+      "path": "src/Aquari.One/Internal/AquariWire.cs",
+      "bytes": 4618,
+      "sha256": "402964730e0880b04a38ba9923f127f9bc9f6e1fb1acc3825fbc165559bbcbec"
+    },
+    {
+      "path": "src/Aquari.One/Oidc/AquariOidcDiscovery.cs",
+      "bytes": 1724,
+      "sha256": "9ec4df1fa3ea31c1e51ca9f60b85c237c516833377dac8041592190f26852fc1"
+    },
+    {
+      "path": "src/Aquari.One/Oidc/AquariOidcDiscoveryParser.cs",
+      "bytes": 6603,
+      "sha256": "d4f4f475ee5803d9509aaaed9f4d163ed3f849db2eb691a4782992da4ed00ae3"
+    },
+    {
+      "path": "src/Aquari.One/Passport/AquariPassportClient.cs",
+      "bytes": 16050,
+      "sha256": "cce616f036333eb0f6578893035da889cd451a5dae8076d6d5bbd1f8501d487b"
+    },
+    {
+      "path": "src/Aquari.One/Passport/AquariPassportModels.cs",
+      "bytes": 8326,
+      "sha256": "f4f5898c19ba4581c63df5917172cdd825bddf89d4d93394bdcffe9ef384f29a"
+    },
+    {
+      "path": "src/Aquari.One/Properties.AssemblyInfo.cs",
+      "bytes": 143,
+      "sha256": "7f347819af5cefb73a081cbac36a44035033cd4435de7426f9f52b16003c6c5a"
+    },
+    {
+      "path": "src/Aquari.One/README.md",
+      "bytes": 637,
+      "sha256": "d762c2b438ec7122976d275741a03b8111620e4c2eee5e0fe225974191577bec"
+    },
+    {
+      "path": "src/Aquari.One/Transport/AquariHttpTransport.cs",
+      "bytes": 14746,
+      "sha256": "95994db088aeb39a8cb42b201aeaefe1b2aae1b99a273f81ec155ffdccd2e884"
+    },
+    {
+      "path": "src/Aquari.One/Transport/AquariOAuthHttpClient.cs",
+      "bytes": 6677,
+      "sha256": "764666b6f274d37daead3f22dab5d2dbc371225e133b5d751bf15efd6c9ebaca"
+    },
+    {
+      "path": "src/Aquari.One/Transport/AquariRetryMode.cs",
+      "bytes": 377,
+      "sha256": "ee42ac1a7530683e29e481f7cc0b1910d2fd6be626367a1b6075971b831d67bd"
+    },
+    {
+      "path": "src/Aquari.One/Trust/AquariTrustClient.cs",
+      "bytes": 4756,
+      "sha256": "012c7cd43da41bf46e0da56a70246ae63ba2ef50b62bc908db733307ec941f8f"
+    },
+    {
+      "path": "src/Aquari.One/Trust/AquariTrustModels.cs",
+      "bytes": 3232,
+      "sha256": "5ef47f0cc5d7f2bcab8fa62acedf848aab845fb8d6cc4869465a389daff7fa3e"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/Aquari.One.AspNetCore.Tests.csproj",
+      "bytes": 889,
+      "sha256": "5c8892dff8bcb762b386cdaeef928c1ba699dcf9a11391932696ec577eeb1b26"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/AspNetCoreAdapterTests.cs",
+      "bytes": 16289,
+      "sha256": "b90bbd8646a2816d07a96df66c042c02f96343243336496fd5bd5ab022b9f384"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/AspNetCoreCookieDomainTests.cs",
+      "bytes": 4715,
+      "sha256": "39b2fa89762147fc484227bf7bf313648e56a8f1a1d29bcd692b8afa140b2a6b"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/AspNetCoreOptionsTests.cs",
+      "bytes": 2396,
+      "sha256": "4408465b2e62c022ae57f28242a67afc1ad5df0188e71a39b9ecad03ead7f558"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/AspNetCoreTestHttp.cs",
+      "bytes": 1158,
+      "sha256": "4e951696d3d05a58a48434ade937212eb3fa5509f4370f14dee0d68035309c61"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/AspNetCoreTestState.cs",
+      "bytes": 1965,
+      "sha256": "7a0d4da93d7c72c41f70354acca5cde0452a52ebfc8425aa2c466cbd2380fb20"
+    },
+    {
+      "path": "tests/Aquari.One.AspNetCore.Tests/SessionInfrastructureTests.cs",
+      "bytes": 2143,
+      "sha256": "1c49e97dfd0396f2d5ab9df303aaf48c552e0dacc416e985f0c3d8c436a5c7c0"
+    },
+    {
+      "path": "tests/Aquari.One.Server.Tests/Aquari.One.Server.Tests.csproj",
+      "bytes": 790,
+      "sha256": "6757b79ff789febf3a82c69f194136c80a14cdd2f893908f5d5f335bf13ecb91"
+    },
+    {
+      "path": "tests/Aquari.One.Server.Tests/ServerConfigurationTests.cs",
+      "bytes": 708,
+      "sha256": "47514efdb368c6b5b8009821c35c37290d2653b155ef18c564a678bd89ab92a2"
+    },
+    {
+      "path": "tests/Aquari.One.Server.Tests/ServerRuntimeTests.cs",
+      "bytes": 14426,
+      "sha256": "e54a5f4f3232d204c495aae7d4b0a36d6161ce5f9989429349909b0a2f017bab"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/Aquari.One.Tests.csproj",
+      "bytes": 776,
+      "sha256": "e8b6ecf4abbe307609976738e465e97e78235debc553defb1d18152191cfb5cb"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/AuthCompleteLifecycleTests.cs",
+      "bytes": 8529,
+      "sha256": "6d6e51a62117a2f95fe361737be39f753d03c98321ba6232679131f097150812"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/AuthRefreshTests.cs",
+      "bytes": 4463,
+      "sha256": "72b8cfef716f3f29fd92e34439e88e306754c997e0b6d8ea25f1b8e4c4476c76"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/AuthorizationFlowTests.cs",
+      "bytes": 8776,
+      "sha256": "6e700d4b359c9b764b696a770a1f38032654c00f52a6f4715005bda8c4a73e5c"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/ConfigurationTests.cs",
+      "bytes": 1384,
+      "sha256": "7071eaba724c832927642064e817cae6c9bf94e1f8388a20fe7a6c05b7023dc8"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/ErrorHierarchyTests.cs",
+      "bytes": 6583,
+      "sha256": "571047ef284262c4ddace03fdf6012ba9188edad8fcc7b07291afc1a003198ac"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/FrozenConfigurationTests.cs",
+      "bytes": 1189,
+      "sha256": "a380a5d7fa7b5e8c5690eac2ac85380cadfa6c2471384af9d9c1e37391a35dcb"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/JwtTestMaterial.cs",
+      "bytes": 2881,
+      "sha256": "d4641e6604a54371a99b71eb4d8e78b5b158b4023b4f0a0465d8258227ab4c60"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/OidcDiscoveryTests.cs",
+      "bytes": 6104,
+      "sha256": "c607b5e71b55c0c9d49207c59dc42c4097c61605aa068c2d25e7e306650053f5"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/PassportTrustTests.cs",
+      "bytes": 5400,
+      "sha256": "d2388b4af6911b78baa13a2b6a20a9f1dcdcf68d6e397ee91864e0f2ab776e82"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/StubHttpMessageHandler.cs",
+      "bytes": 645,
+      "sha256": "b4bdd33af29e884f8b38c9db641528b4315044d59c5916dc031640bffa49c587"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/TestDiscoveryDocument.cs",
+      "bytes": 2151,
+      "sha256": "bd7dea84895c644d7ca583f3eab005b0dcdf6f5d88e8185c5cbd50f377d2508e"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/TransportPathTests.cs",
+      "bytes": 5457,
+      "sha256": "298f4b6c24fea21fd08a740a17afa84805f54a24f77006c7fbdc418b743a2ffc"
+    },
+    {
+      "path": "tests/Aquari.One.Tests/UriPolicyTests.cs",
+      "bytes": 1156,
+      "sha256": "15364b4f481a1afeccf2aef0c47904a0f02337734094bcdc441f73564937debc"
+    }
+  ]
+}
